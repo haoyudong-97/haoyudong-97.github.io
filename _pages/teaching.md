@@ -1,12 +1,23 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: Courses that I have taught.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Duke University
+*(Graduate Teaching Assistant)*
 
-Organize your courses by years, topics, or universities, however you like!
+- ECE 684: Natural Language Processing (Fall 2024)
+  - Roles: Office hours and assignment grading.
+  - Under Professor Patrick Wang
+
+- ECE 661: Computer Engineering Machine Learning & Deep Neural Networks (Fall 2023)
+  - Roles: Office hours, assignment grading, and project leading.
+  - Under Professor Hai Li
+
+- CS 527: Computer Vision (Spring 2021)
+  - Roles: Office hours, assignment and exam grading.
+  - Under Professor Carlo Tomasi
