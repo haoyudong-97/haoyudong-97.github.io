@@ -19,10 +19,6 @@ Recent News
  * [Aug. 2024] Our work [(link)]() on contrillable image generation is accepted by MICCAI.
  
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
 
 <div align="center">
     <div align="center">
