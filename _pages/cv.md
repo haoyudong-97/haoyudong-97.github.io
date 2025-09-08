@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-My CV can be downloaded [here](https://nickk124.github.io/assets/pdf/NicholasKonzCV.pdf).
+My CV can be downloaded [here](https://haoyudong-97.github.io/assets/Haoyu_Resume.pdf).
