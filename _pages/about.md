@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Haoyu Dong, a forth-year Ph.D. student in Electrical & Computer Engineering at Duke University, advised by Prof. Maciej A. Mazurowski. I previously earned my M.S. in Computer Science at Duke and my B.S. in Mathematics–Computer Science and Cognitive Science at UC San Diego.
+My name is Haoyu Dong, a forth-year Ph.D. student in Electrical & Computer Engineering at Duke University, advised by [Prof. Maciej A. Mazurowski](https://sites.duke.edu/mazurowski/). I previously earned my M.S. in Computer Science at Duke, working with [Prof. Guillermo Sapiro](https://ece.princeton.edu/people/gsapiro), and my B.S. in Mathematics–Computer Science and Cognitive Science at UC San Diego, working with [Prof. Zhuowen Tu](https://pages.ucsd.edu/~ztu/).
 
 My research focuses on foundation models and data-centric AI for medical imaging. I build large-scale vision and vision–language foundation models, develop in-context learning approaches for segmentation, and design multimodal agents that integrate imaging with language and tool use. I am also interested in anomaly detection, test-time adaptation, and clinical decision support, with the broader goal of enabling robust, universal, and clinically meaningful medical AI systems.
 
