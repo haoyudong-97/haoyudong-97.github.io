@@ -13,12 +13,17 @@ My research focuses on foundation models and data-centric AI for medical imaging
 
 Recent News
 ======
- * <span class='emoji'>🔥</span> [July 2025] Our work [MRI-Core](https://arxiv.org/pdf/2506.12186) on MRI foundation model is out! 
- * <span class='emoji'>🔥</span> [May 2025] Our work [(link)](https://arxiv.org/pdf/2401.12974) on exploring SAM's fine-tuning strategy is accepted by MELBA.
- * <span class='emoji'>🔥</span> [April 2025] Our work [SegmentAnyBone](https://arxiv.org/pdf/2401.12974) on universal bone segmentation is accepted by Medical Image Analysis.
- * [Aug. 2024] Our work [(link)]() on contrillable image generation is accepted by MICCAI.
- 
+ * <span class='emoji'>🔥</span> [July 2025] Our work [(PDF)](https://arxiv.org/pdf/2506.12186) on MRI foundation model is out! 
+ * <span class='emoji'>🔥</span> [May 2025] Our work [(PDF)](https://arxiv.org/pdf/2401.12974) on exploring SAM's fine-tuning strategy is accepted by MELBA.
+ * <span class='emoji'>🔥</span> [April 2025] Our work [(PDF)](https://arxiv.org/pdf/2401.12974) on universal bone segmentation is accepted by Medical Image Analysis.
+ * [June 2024] Our work [(PDF)](https://arxiv.org/pdf/2402.05210) on anatomically-controllable image generation is accepted by MICCAI.
+ * [March 2024] Our work [(PDF)](https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Dong_Medical_Image_Segmentation_with_InTEnt_Integrated_Entropy_Weighting_for_Single_CVPRW_2024_paper.pdf) on test-time adaption is accepted by CVPR Workshop as Oral Presentation. 
+ * [Sep. 2023] Our work [(PDF)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10766076/) on anomaly detection on high-resolution images is accepted by IEEE TMI.
+ * [Aug 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523001780) on SAM evaluation on medical domain is accepted by MedIA.
+ * [April 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523000968) on pluralistic image completion is accepted by MedIA. 
 
+Misc
+======
 
 <div align="center">
     <div align="center">
