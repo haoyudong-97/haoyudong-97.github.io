@@ -22,8 +22,6 @@ Recent News
  * [Aug 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523001780) on SAM evaluation on medical domain is accepted by MedIA.
  * [April 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523000968) on pluralistic image completion is accepted by MedIA. 
 
-Misc
-======
 
 <div align="center">
     <div align="center">
