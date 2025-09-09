@@ -23,6 +23,8 @@ Recent News
  * [April 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523000968) on pluralistic image completion is accepted by MedIA. 
 
 
+<br><br>
+
 <div align="center">
     <div align="center">
         This Site Already Has  
