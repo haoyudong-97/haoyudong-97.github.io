@@ -36,6 +36,6 @@ Recent News
 
   
     <div align="center" style="width:20%">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=upmXbXnNXcHG93dNQSaEeA-QWfIoIc0MhdJhI9oRRcE"></script>
+        <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=L1akKyUo-1GtpromhDK-Y4TAV4AdVITeC_lM8g3YOpQ"></script>
     </div>
 </div>
