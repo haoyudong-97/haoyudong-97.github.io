@@ -16,6 +16,7 @@ Recent News
  * <span class='emoji'>🔥</span> [Dec. 2025] Our work [(PDF)](https://arxiv.org/pdf/2505.13414) on breast registration is accpeted by IEEE JBHI
  * <span class='emoji'>🔥</span> [Oct. 2025] Our work [(PDF)](https://arxiv.org/pdf/2505.01854) on segementation with SAM 2 is accpeted by IEEE TMI! 
  * <span class='emoji'>🔥</span> [July 2025] Our work [(PDF)](https://arxiv.org/pdf/2506.12186) on MRI foundation model is out! 
+ * <span class='emoji'>🔥</span> [Oct. 2025] Our work [(PDF)](https://arxiv.org/pdf/2401.12974) on building multi-modal medical agent is accepted by EMNLP.
  * <span class='emoji'>🔥</span> [May 2025] Our work [(PDF)](https://arxiv.org/pdf/2401.12974) on exploring SAM's fine-tuning strategy is accepted by MELBA.
  * <span class='emoji'>🔥</span> [April 2025] Our work [(PDF)](https://arxiv.org/pdf/2401.12974) on universal bone segmentation is accepted by Medical Image Analysis.
  * [June 2024] Our work [(PDF)](https://arxiv.org/pdf/2402.05210) on anatomically-controllable image generation is accepted by MICCAI.
