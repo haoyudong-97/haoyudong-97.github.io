@@ -11,6 +11,11 @@ My name is Haoyu Dong, a forth-year Ph.D. student in Electrical & Computer Engin
 
 My research focuses on foundation models and data-centric AI for medical imaging. I build large-scale vision and vision–language foundation models, develop in-context learning approaches for segmentation, and design multimodal agents that integrate imaging with language and tool use. I am also interested in anomaly detection, test-time adaptation, and clinical decision support, with the broader goal of enabling robust, universal, and clinically meaningful medical AI systems.
 
+Experience
+======
+* **Research Intern** @ [Siemens Healthineers](https://www.siemens-healthineers.com/), Princeton, NJ (Jun. – Aug. 2025)
+  Advised by [Sasa Grbic](https://scholar.google.com/citations?user=VCbqAkcAAAAJ&hl=en) and [Han Liu](https://scholar.google.com/citations?user=38YPqAkAAAAJ&hl=en&oi=sra). Developed **SNAIL**, a 3D in-context learning framework for CT segmentation. SNAIL uses multi-stage cross-attention and masked foreground pooling to generalize to unseen anatomical classes from a handful of labeled support volumes, trained on ~15k CT volumes. Applied GPT-4o for large-scale label harmonization across heterogeneous datasets.
+
 Recent News
 ======
  * <span class='emoji'>🔥</span> [Dec. 2025] Our work [(PDF)](https://arxiv.org/pdf/2505.13414) on breast registration is accpeted by IEEE JBHI
