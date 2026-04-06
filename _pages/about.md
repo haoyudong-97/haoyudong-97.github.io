@@ -14,7 +14,10 @@ My research focuses on foundation models and data-centric AI for medical imaging
 Experience
 ======
 * **Research Intern** @ [Siemens Healthineers](https://www.siemens-healthineers.com/), Princeton, NJ (Jun. – Aug. 2025)
-  Advised by [Sasa Grbic](https://scholar.google.com/citations?user=VCbqAkcAAAAJ&hl=en) and [Han Liu](https://scholar.google.com/citations?user=38YPqAkAAAAJ&hl=en&oi=sra). Developed **SNAIL**, a 3D in-context learning framework for CT segmentation. SNAIL uses multi-stage cross-attention and masked foreground pooling to generalize to unseen anatomical classes from a handful of labeled support volumes, trained on ~15k CT volumes. Applied GPT-4o for large-scale label harmonization across heterogeneous datasets.
+  * Advised by [Sasa Grbic](https://scholar.google.com/citations?user=VCbqAkcAAAAJ&hl=en) and [Han Liu](https://scholar.google.com/citations?user=38YPqAkAAAAJ&hl=en&oi=sra)
+  * Developed **SNAIL**, a 3D in-context learning framework for CT segmentation
+  * Designed multi-stage cross-attention and masked foreground pooling to generalize to unseen anatomical classes from a handful of labeled support volumes
+  * Trained on ~15k CT volumes; applied GPT-4o for large-scale label harmonization across heterogeneous datasets
 
 Recent News
 ======
