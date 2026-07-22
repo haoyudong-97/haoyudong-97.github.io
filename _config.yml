@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Haoyu Dong"
   pronouns         : # example: "she/her"  
-  bio              : "My research explores foundation models and medical image analysis."
+  bio              : "My research explores large language models, multimodal agents, and foundation models for medical imaging."
   location         : #"Earth"
   employer         : "Duke University"
   uri              : # URL
