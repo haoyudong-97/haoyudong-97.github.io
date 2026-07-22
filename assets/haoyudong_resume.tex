@@ -1,0 +1,109 @@
+% Resume in LaTeX
+% Author: Haoyu Dong (template by Jake Gutierrez)
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[english]{babel}
+\input{glyphtounicode}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1in}
+\setlength{\parindent}{0pt}
+\raggedbottom
+\raggedright
+\pdfgentounicode=1
+
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\titlerule\vspace{-5pt}]
+\newcommand{\entry}[4]{\textbf{#1}\hfill\textit{#2}\\\textit{#3}\hfill\textit{#4}}
+\newcommand{\itemsstart}{\begin{itemize}[topsep=4pt,itemsep=3pt,leftmargin=0.22in]}
+\newcommand{\itemsend}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+\begin{center}
+  {\Huge\scshape\textbf{Haoyu Dong}}\\[8pt]
+  \href{https://haoyudong-97.github.io/}{Homepage} $|$
+  \href{https://www.linkedin.com/in/haoyu-dong-63a801b9/}{LinkedIn} $|$
+  \href{https://scholar.google.com/citations?hl=en\&user=eZVEUCIAAAAJ\&view_op=list_works}{Google Scholar} $|$
+  \href{mailto:haoyu.dong151@duke.edu}{Email} $|$ +1 858 500-2825
+\end{center}
+
+\section{Research Interests}
+My research focuses on large language models, multimodal agents, foundation models, and data-centric AI for medical imaging. I build systems that integrate imaging with language and tool use, learn from large-scale heterogeneous datasets, and support robust clinical image analysis.
+
+\section{Education}
+\entry{Duke University}{Durham, NC}{Ph.D. in Electrical \& Computer Engineering}{Jun. 2022--Jan. 2027 (Expected)}\\
+Advisor: Prof. Maciej A. Mazurowski
+
+\entry{Duke University}{Durham, NC}{M.S. in Computer Science}{Aug. 2019--Jun. 2021}
+
+\entry{University of California, San Diego}{La Jolla, CA}{B.S. in Mathematics--Computer Science \& B.S. in Cognitive Science}{Sep. 2015--Jun. 2019}
+
+\section{Industry Experience}
+\entry{Meta}{Menlo Park, CA}{Software Engineering Intern}{May 2026--Present}
+\itemsstart
+  \item Improved the Meta-Harness algorithm by developing diverse, adaptable harnesses tailored to different use cases.
+\itemsend
+
+\entry{Siemens Healthineers}{Princeton, NJ}{AI Research Intern}{Jun. 2026--Aug. 2026}
+\itemsstart
+  \item Developed a training-free in-context segmentation framework with fixed support--query prompting that reduces annotation overhead and scales to 14K MRI/CT volumes.
+  \item With five supports per task and no retraining, approached a supervised nnU-Net trained on the same supports on internal and AMOS CT evaluations.
+\itemsend
+
+\entry{Gradient Health}{Durham, NC}{Fellowship Recipient}{May 2020--Sep. 2020}
+\itemsstart
+  \item Built a multimodal dataset with 2.6M patients' diagnostic images and paired radiology reports and designed a language-informed BYOL pretraining pipeline.
+\itemsend
+
+\section{Research Experience}
+\entry{Mazurowski's Lab, Duke University}{Durham, NC}{Graduate Research Associate}{Jul. 2022--Present}
+\itemsstart
+  \item Built MRI-CORE, pretrained on 7M MRI slices, and a 3D multimodal breast MRI foundation model aligning volumetric imaging with radiology reports.
+  \item Developed adaptation recipes for medical foundation models and SegmentAnyMuscle, a universal muscle segmentation model across anatomical locations.
+  \item Evaluated SAM and SAM 2 across 2D and 3D medical images, modalities, body locations, scanners, and clinical sites.
+  \item Developed InTEnt, a single-image test-time adaptation method that improved out-of-domain segmentation by 2.9 Dice points.
+\itemsend
+
+\entry{Mazurowski's Lab, Duke University}{Durham, NC}{Associate in Research}{Jun. 2021--Jun. 2022}
+\itemsstart
+  \item Developed SWSSL for anomaly detection in high-resolution breast tomosynthesis and chest X-ray, improving AUROC over prior methods.
+\itemsend
+
+\entry{Sapiro's Lab, Duke University}{Durham, NC}{Graduate Research Assistant}{Sep. 2019--May 2021}
+\itemsstart
+  \item Built a joint visual--semantic space for text-conditioned image retrieval using iterative point alignment and manifold-distance search.
+\itemsend
+
+\entry{Machine Learning, Perception, and Cognition Lab, UC San Diego}{La Jolla, CA}{Research Assistant}{Jul. 2018--May 2019}
+\itemsstart
+  \item Introduced multi-entropy sampling and multi-range reinforcing to mitigate exposure bias in autoregressive language models.
+\itemsend
+
+\section{Selected Publications}
+\begin{enumerate}[leftmargin=0.28in,itemsep=4pt]
+  \item Nicholas Konz et al.: \textit{Fr\'echet radiomic distance (FRD): A versatile metric for comparing medical imaging datasets}. Medical Image Analysis, 2026.
+  \item \textbf{Haoyu Dong}, Hanxue Gu, Yaqian Chen, Jichen Yang, Yuwen Chen, Maciej A. Mazurowski: \textit{Segment Anything Model 2: An application to 2D and 3D medical images}. IEEE TBME, 2026.
+  \item Yaqian Chen et al.: \textit{GuidedMorph: Two-stage deformable registration for breast MRI}. IEEE JBHI, 2025.
+  \item Yuwen Chen et al.: \textit{Accelerating volumetric medical image annotation via Short-Long Memory SAM 2}. IEEE TMI, 2025.
+  \item Yaqian Chen et al.: \textit{Breast density in MRI: An AI-based quantification and relationship to assessment in mammography}. npj Breast Cancer, 2025.
+  \item Hanxue Gu et al.: \textit{SegmentAnyBone: A universal model that segments any bone at any location on MRI}. Medical Image Analysis, 2025.
+  \item Pedro R. A. S. Bassi et al.: \textit{Touchstone benchmark: Are we on the right way for evaluating AI algorithms for medical segmentation?}. NeurIPS, 2024.
+  \item Binxu Li et al.: \textit{MMedAgent: Learning to use medical tools with multi-modal agent}. EMNLP, 2024.
+  \item \textbf{Haoyu Dong} et al.: \textit{Medical image segmentation with InTEnt: Integrated entropy weighting for single image test-time adaptation}. CVPR Workshop Oral, 2024.
+  \item Maciej A. Mazurowski et al.: \textit{Segment Anything Model for medical image analysis: An experimental study}. Medical Image Analysis, 2023.
+  \item \textbf{Haoyu Dong} et al.: \textit{SWSSL: Sliding window-based self-supervised learning for anomaly detection in high-resolution images}. IEEE TMI, 2023.
+  \item \textbf{Haoyu Dong}, Ze Wang, Qiang Qiu, Guillermo Sapiro: \textit{Using text to teach image retrieval}. CVPR Workshop, 2021.
+\end{enumerate}
+
+\section{Academic Service}
+\textbf{Conference reviewer:} ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, MICCAI, MIDL.\\
+\textbf{Journal reviewer:} IEEE TMI (Distinguished Reviewer, Silver Level 2023--24), IEEE JBHI, IEEE TNNLS, IEEE TBME, Medical Image Analysis, Artificial Intelligence Review.
+
+\end{document}
