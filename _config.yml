@@ -12,10 +12,10 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Haoyu Dong"
 title_separator          : "-"
 name                     : &name "Haoyu Dong"
-description              : &description "personal description"
-url                      : https://haoyudong-97.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+description              : &description "Haoyu Dong is a Duke ECE Ph.D. candidate developing foundation models, multimodal agents, and medical AI systems."
+url                      : https://haoyudong-97.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "haoyudong-97/haoyudong-97.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Haoyu Dong"
   pronouns         : # example: "she/her"  
-  bio              : "My research explores large language models, multimodal agents, and foundation models for medical imaging."
+  bio              : "Foundation models, multimodal agents, and medical AI."
   location         : #"Earth"
   employer         : "Duke University"
   uri              : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "haoyu-dong-63a801b9"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -139,14 +139,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png"
+og_description           : "Haoyu Dong — foundation models, multimodal agents, and medical AI."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Haoyu Dong"
+  links:
+    - "https://www.linkedin.com/in/haoyu-dong-63a801b9/"
+    - "https://github.com/haoyudong-97"
+    - "https://scholar.google.com/citations?hl=en&user=eZVEUCIAAAAJ&view_op=list_works"
 
 
 # Analytics

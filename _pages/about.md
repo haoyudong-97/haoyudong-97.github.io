@@ -1,59 +1,70 @@
 ---
 permalink: /
-title: "About me"
+title: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am Haoyu Dong, currently in the final year of my Ph.D. in Electrical & Computer Engineering at Duke University, advised by [Prof. Maciej A. Mazurowski](https://sites.duke.edu/mazurowski/). My research interests center on large language models, multimodal agents, and foundation models. I am particularly interested in building agentic systems that reason across images and text, use specialized tools, and adapt to complex, real-world medical tasks.
+I am a final-year Ph.D. candidate in Electrical & Computer Engineering at Duke University, advised by [Prof. Maciej A. Mazurowski](https://sites.duke.edu/mazurowski/). I develop foundation models and agentic AI systems that reason across images and language, use specialized tools, and adapt to complex real-world tasks.
 
-Across academic and industry research, I have developed multimodal medical agents that integrate language, vision, and external tools; worked on radiology report generation and text-guided image retrieval; and applied LLMs to harmonize labels across large, heterogeneous medical datasets. I have also built MRI foundation models, studied SAM and SAM 2 for medical image analysis, and improved Meta-Harness by developing adaptable harnesses for diverse use cases. I previously earned my M.S. in Computer Science at Duke, where I worked with [Prof. Guillermo Sapiro](https://scholar.google.com/citations?user=ISRNX3gAAAAJ&hl=en), and my B.S. in Mathematics–Computer Science and Cognitive Science at UC San Diego, where I worked with [Prof. Zhuowen Tu](https://pages.ucsd.edu/~ztu/).
+My work spans LLM-agent optimization at Meta, in-context 3D medical image segmentation at Siemens Healthineers, and large-scale multimodal learning at Duke. I previously earned my M.S. in Computer Science at Duke, where I worked with [Prof. Guillermo Sapiro](https://scholar.google.com/citations?user=ISRNX3gAAAAJ&hl=en), and B.S. degrees in Mathematics–Computer Science and Cognitive Science at UC San Diego, where I worked with [Prof. Zhuowen Tu](https://pages.ucsd.edu/~ztu/).
 
-<span style="color: red;">I am on the job market and actively seeking an industry position starting in Summer 2027!</span>
+**I am seeking research scientist, applied scientist, and research engineering positions starting in Summer 2027.**
+
+<a href="/assets/haoyudong_resume.pdf" class="btn btn--primary">Download résumé</a>
+
+<h2 id="selected-work">Selected Work</h2>
+
+### Meta-Harness — LLM agent optimization
+
+Improved Meta-Harness's algorithm-evolution pipeline by evolving agent trajectories and dynamically adapting training data. Increased performance from **49% to 62%** on math-solving tasks and from **68% to 71.3%** on Terminal-Bench 2.
+
+### SNAIL — In-context 3D medical image segmentation
+
+Developed a training-free support–query framework for segmenting unseen anatomy from five labeled examples, with preprocessing and evaluation infrastructure spanning **14K MRI/CT volumes**. Achieved **54.9% Dice** without retraining versus **56.9%** for a supervised nnU-Net on AMOS CT.
+
+### [MRI-CORE](https://arxiv.org/abs/2506.12186) — MRI foundation model
+
+Pretrained a foundation model on **7M MRI slices**, improving few-shot downstream segmentation by **5 Dice points** over SAM, and extended this direction toward multimodal 3D MRI and radiology-report alignment.
+
+### [MMedAgent](https://aclanthology.org/2024.findings-emnlp.510/) — Multimodal medical agent
+
+Developed a multimodal agent that coordinates specialized medical tools across imaging and language tasks; published in **Findings of EMNLP 2024**.
 
 Experience
 ======
-**Software Engineering Intern**, [Meta](https://www.meta.com) · May 2026 – Present<br>
-Improved the Meta-Harness algorithm by developing diverse, adaptable harnesses tailored to different use cases.
 
-**Research Intern**, [Siemens Healthineers](https://www.siemens-healthineers.com/) · June 2026 – August 2026<br>
-Developed **SNAIL**, a 3D in-context learning framework for CT segmentation.
+**Software Engineering Intern**, [Meta](https://www.meta.com) · May 2026 – Present<br>
+Worked on algorithm evolution for LLM agents, making trajectories evolvable and adapting training data to strengthen optimization signals.
+
+**AI Research Intern**, [Siemens Healthineers](https://www.siemens-healthineers.com/) · June 2025 – August 2025<br>
+Developed SNAIL, a training-free in-context learning framework for 3D CT segmentation of unseen anatomy.
 
 Recent News
 ======
- * <span class='emoji'>🔥</span> [Jan. 2026] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841526000125) on Fréchet Radiomic Distance (FRD) is published in Medical Image Analysis.
- * <span class='emoji'>🔥</span> [Jan. 2026] Our work [(PDF)](https://arxiv.org/pdf/2408.00756) on applying SAM 2 to 2D and 3D medical images is published in IEEE Transactions on Biomedical Engineering.
- * <span class='emoji'>🔥</span> [Dec. 2025] Our work [(PDF)](https://arxiv.org/pdf/2505.13414) on breast MRI registration is published in IEEE Journal of Biomedical and Health Informatics.
- * <span class='emoji'>🔥</span> [Oct. 2025] Our work [(PDF)](https://www.nature.com/articles/s41523-025-00789-w.pdf) on AI-based breast density quantification in MRI is published in npj Breast Cancer.
- * <span class='emoji'>🔥</span> [Oct. 2025] Our work [(PDF)](https://arxiv.org/pdf/2505.01854) on accelerating volumetric annotation with SAM 2 is published in IEEE Transactions on Medical Imaging.
- * <span class='emoji'>🔥</span> [July 2025] Our work [(PDF)](https://arxiv.org/pdf/2506.12186) on an MRI foundation model is out.
- * <span class='emoji'>🔥</span> [May 2025] Our work [(PDF)](https://arxiv.org/pdf/2401.12974) on SAM fine-tuning strategies is published in MELBA.
- * [April 2025] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841525000170) on universal bone segmentation is published in Medical Image Analysis.
- * [Dec. 2024] Our work [(PDF)](https://proceedings.neurips.cc/paper_files/paper/2024/file/1b8726b572e0dfa72793f9f6590664fd-Paper-Datasets_and_Benchmarks_Track.pdf) on evaluating medical image segmentation algorithms is published at NeurIPS Datasets and Benchmarks.
- * [Oct. 2024] Our work [(PDF)](https://aclanthology.org/2024.findings-emnlp.510.pdf) on building a multimodal medical agent is published in Findings of EMNLP.
- * [June 2024] Our work [(PDF)](https://arxiv.org/pdf/2402.05210) on anatomically controllable medical image generation is published at MICCAI.
- * [March 2024] Our work [(PDF)](https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Dong_Medical_Image_Segmentation_with_InTEnt_Integrated_Entropy_Weighting_for_Single_CVPRW_2024_paper.pdf) on test-time adaptation is accepted as an oral presentation at a CVPR workshop.
- * [March 2024] Our work [(PDF)](https://www.nature.com/articles/s41598-024-54048-2.pdf) on breast MRI tissue and vessel segmentation is published in Scientific Reports.
- * [March 2024] Our work [(Paper)](https://www.sciencedirect.com/science/article/pii/S0925231224001450) on confidence-guided radiology report generation is published in Neurocomputing.
- * [Sep. 2023] Our work [(PDF)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10766076/) on anomaly detection on high-resolution images is accepted by IEEE TMI.
- * [Aug 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523001780) on SAM evaluation on medical domain is accepted by MedIA.
- * [April 2023] Our work [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841523000968) on pluralistic image completion is accepted by MedIA. 
 
-<br><br>
+* **[Jan. 2026]** Our work on [Fréchet Radiomic Distance](https://doi.org/10.1016/j.media.2026.103943) was published in *Medical Image Analysis*.
+* **[Jan. 2026]** Our work applying [SAM 2 to 2D and 3D medical images](https://arxiv.org/abs/2408.00756) was published in *IEEE Transactions on Biomedical Engineering*.
+* **[Dec. 2025]** Our work on [breast MRI registration](https://arxiv.org/abs/2505.13414) was published in *IEEE Journal of Biomedical and Health Informatics*.
+* **[Oct. 2025]** Our work on [AI-based breast density quantification](https://www.nature.com/articles/s41523-025-00789-w) was published in *npj Breast Cancer*.
+* **[Oct. 2025]** Our work on [volumetric annotation with SAM 2](https://arxiv.org/abs/2505.01854) was published in *IEEE Transactions on Medical Imaging*.
+* **[July 2025]** We released [MRI-CORE](https://arxiv.org/abs/2506.12186), a foundation model for magnetic resonance imaging.
 
-<div align="center">
-    <div align="center">
-        This Site Already Has  
-            <small><a href="https://www.easycounter.com/">
-            <img src="https://www.easycounter.com/counter.php?haoyudong"
-            border="0" alt="stats counter"></a></small> 
-         Visitors
-    </div>
+<details>
+<summary><strong>Earlier news</strong></summary>
 
-  
-    <div align="center" style="width:20%">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=lNzjDdShRyWzjCgqu-tyAzpDZsNvBiYQTufKm-qFV8w"></script>
-    </div>
-</div>
+* **[May 2025]** Our study of [SAM fine-tuning strategies](https://www.melba-journal.org/papers/2025:006.html) was published in *MELBA*.
+* **[April 2025]** [SegmentAnyBone](https://www.sciencedirect.com/science/article/pii/S1361841525000170) was published in *Medical Image Analysis*.
+* **[Dec. 2024]** The [Touchstone benchmark](https://proceedings.neurips.cc/paper_files/paper/2024/file/1b8726b572e0dfa72793f9f6590664fd-Paper-Datasets_and_Benchmarks_Track.pdf) was published at NeurIPS Datasets and Benchmarks.
+* **[Oct. 2024]** [MMedAgent](https://aclanthology.org/2024.findings-emnlp.510/) was published in Findings of EMNLP.
+* **[June 2024]** Our work on [anatomically controllable medical image generation](https://arxiv.org/abs/2402.05210) was published at MICCAI.
+* **[March 2024]** [InTEnt](https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Dong_Medical_Image_Segmentation_with_InTEnt_Integrated_Entropy_Weighting_for_Single_CVPRW_2024_paper.pdf) was presented as an oral at a CVPR workshop.
+* **[March 2024]** Our [breast MRI segmentation model and dataset](https://www.nature.com/articles/s41598-024-54048-2) were published in *Scientific Reports*.
+* **[March 2024]** Our work on [confidence-guided radiology report generation](https://www.sciencedirect.com/science/article/pii/S0925231224001450) was published in *Neurocomputing*.
+* **[Sep. 2023]** [SWSSL](https://pmc.ncbi.nlm.nih.gov/articles/PMC10766076/) was published in *IEEE Transactions on Medical Imaging*.
+* **[Aug. 2023]** Our [SAM evaluation for medical imaging](https://www.sciencedirect.com/science/article/pii/S1361841523001780) was published in *Medical Image Analysis*.
+* **[April 2023]** Our work on [pluralistic image completion](https://www.sciencedirect.com/science/article/pii/S1361841523000968) was published in *Medical Image Analysis*.
+
+</details>

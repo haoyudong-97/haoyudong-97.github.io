@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Résumé"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-My CV can be downloaded [here](/assets/Haoyu_Resume.pdf).
+Download my [industry résumé](/assets/haoyudong_resume.pdf) (PDF).
