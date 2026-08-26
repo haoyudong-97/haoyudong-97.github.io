@@ -23,7 +23,7 @@ Improved Meta-Harness's algorithm-evolution pipeline by evolving agent trajector
 
 ### SNAIL — In-context 3D medical image segmentation
 
-Developed a training-free support–query framework for segmenting unseen anatomy from five labeled examples, with preprocessing and evaluation infrastructure spanning **14K MRI/CT volumes**. Achieved **54.9% Dice** without retraining versus **56.9%** for a supervised nnU-Net on AMOS CT.
+Developed a training-free support–query framework for segmenting unseen anatomy from five labeled examples, with preprocessing and evaluation infrastructure spanning **14K MRI/CT volumes**. Achieved **54.9% Dice** without retraining versus **56.9%** for a supervised nnU-Net on AMOS CT. Co-inventor on the resulting **patent-pending** technology assigned to Siemens Medical Solutions USA, Inc.
 
 ### [MRI-CORE](https://arxiv.org/abs/2506.12186) — MRI foundation model
 
@@ -40,7 +40,7 @@ Experience
 Worked on algorithm evolution for LLM agents, making trajectories evolvable and adapting training data to strengthen optimization signals.
 
 **AI Research Intern**, [Siemens Healthineers](https://www.siemens-healthineers.com/) · June 2025 – August 2025<br>
-Developed SNAIL, a training-free in-context learning framework for 3D CT segmentation of unseen anatomy.
+Developed SNAIL, a training-free in-context learning framework for 3D CT segmentation of unseen anatomy, resulting in patent-pending technology assigned to Siemens Medical Solutions USA, Inc.
 
 Recent News
 ======
