@@ -15,6 +15,8 @@ My work spans LLM-agent optimization at Meta, in-context 3D medical image segmen
 
 <a href="/assets/haoyudong_resume.pdf" class="btn btn--primary">Download résumé</a>
 
+{% include scholar-metrics.html %}
+
 <h2 id="selected-work">Selected Work</h2>
 
 ### Meta-Harness — LLM agent optimization
