@@ -1,5 +1,6 @@
 {% assign metrics = site.data.scholar %}
 <aside class="scholar-metrics" aria-label="Research impact on Google Scholar" data-updated="{{ metrics.updated_at }}">
+  <a class="scholar-metrics__source" href="{{ metrics.source_url }}">Google Scholar</a>
   <div class="scholar-metrics__numbers">
     <div><strong id="scholar-citations">{{ metrics.citations }}</strong><span>Citations</span></div>
     <div><strong id="scholar-h-index">{{ metrics.h_index }}</strong><span>h-index</span></div>
