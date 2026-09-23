@@ -56,17 +56,17 @@ Recent News
 
 <details>
 <summary><strong>Earlier news</strong></summary>
-
-* **[May 2025]** Our study of [SAM fine-tuning strategies](https://www.melba-journal.org/papers/2025:006.html) was published in *MELBA*.
-* **[April 2025]** [SegmentAnyBone](https://www.sciencedirect.com/science/article/pii/S1361841525000170) was published in *Medical Image Analysis*.
-* **[Dec. 2024]** The [Touchstone benchmark](https://proceedings.neurips.cc/paper_files/paper/2024/file/1b8726b572e0dfa72793f9f6590664fd-Paper-Datasets_and_Benchmarks_Track.pdf) was published at NeurIPS Datasets and Benchmarks.
-* **[Oct. 2024]** [MMedAgent](https://aclanthology.org/2024.findings-emnlp.510/) was published in Findings of EMNLP.
-* **[June 2024]** Our work on [anatomically controllable medical image generation](https://arxiv.org/abs/2402.05210) was published at MICCAI.
-* **[March 2024]** [InTEnt](https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Dong_Medical_Image_Segmentation_with_InTEnt_Integrated_Entropy_Weighting_for_Single_CVPRW_2024_paper.pdf) was presented as an oral at a CVPR workshop.
-* **[March 2024]** Our [breast MRI segmentation model and dataset](https://www.nature.com/articles/s41598-024-54048-2) were published in *Scientific Reports*.
-* **[March 2024]** Our work on [confidence-guided radiology report generation](https://www.sciencedirect.com/science/article/pii/S0925231224001450) was published in *Neurocomputing*.
-* **[Sep. 2023]** [SWSSL](https://pmc.ncbi.nlm.nih.gov/articles/PMC10766076/) was published in *IEEE Transactions on Medical Imaging*.
-* **[Aug. 2023]** Our [SAM evaluation for medical imaging](https://www.sciencedirect.com/science/article/pii/S1361841523001780) was published in *Medical Image Analysis*.
-* **[April 2023]** Our work on [pluralistic image completion](https://www.sciencedirect.com/science/article/pii/S1361841523000968) was published in *Medical Image Analysis*.
-
+<ul>
+  <li><strong>[May 2025]</strong> Our study of <a href="https://www.melba-journal.org/papers/2025:006.html">SAM fine-tuning strategies</a> was published in <em>MELBA</em>.</li>
+  <li><strong>[April 2025]</strong> <a href="https://www.sciencedirect.com/science/article/pii/S1361841525000170">SegmentAnyBone</a> was published in <em>Medical Image Analysis</em>.</li>
+  <li><strong>[Dec. 2024]</strong> The <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/1b8726b572e0dfa72793f9f6590664fd-Paper-Datasets_and_Benchmarks_Track.pdf">Touchstone benchmark</a> was published at NeurIPS Datasets and Benchmarks.</li>
+  <li><strong>[Oct. 2024]</strong> <a href="https://aclanthology.org/2024.findings-emnlp.510/">MMedAgent</a> was published in Findings of EMNLP.</li>
+  <li><strong>[June 2024]</strong> Our work on <a href="https://arxiv.org/abs/2402.05210">anatomically controllable medical image generation</a> was published at MICCAI.</li>
+  <li><strong>[March 2024]</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Dong_Medical_Image_Segmentation_with_InTEnt_Integrated_Entropy_Weighting_for_Single_CVPRW_2024_paper.pdf">InTEnt</a> was presented as an oral at a CVPR workshop.</li>
+  <li><strong>[March 2024]</strong> Our <a href="https://www.nature.com/articles/s41598-024-54048-2">breast MRI segmentation model and dataset</a> were published in <em>Scientific Reports</em>.</li>
+  <li><strong>[March 2024]</strong> Our work on <a href="https://www.sciencedirect.com/science/article/pii/S0925231224001450">confidence-guided radiology report generation</a> was published in <em>Neurocomputing</em>.</li>
+  <li><strong>[Sep. 2023]</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10766076/">SWSSL</a> was published in <em>IEEE Transactions on Medical Imaging</em>.</li>
+  <li><strong>[Aug. 2023]</strong> Our <a href="https://www.sciencedirect.com/science/article/pii/S1361841523001780">SAM evaluation for medical imaging</a> was published in <em>Medical Image Analysis</em>.</li>
+  <li><strong>[April 2023]</strong> Our work on <a href="https://www.sciencedirect.com/science/article/pii/S1361841523000968">pluralistic image completion</a> was published in <em>Medical Image Analysis</em>.</li>
+</ul>
 </details>
