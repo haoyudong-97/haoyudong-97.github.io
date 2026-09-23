@@ -45,8 +45,8 @@ Developed a 3D in-context segmentation framework for unseen anatomies, built and
 Recent News
 ======
 
-* **[Sep. 2026]** Our paper [Universal CT Representations from Anatomy to Disease Phenotype through Stage-wise Pretraining](https://arxiv.org/abs/2605.21906) was accepted to *npj Digital Medicine*.
-* **[Sep. 2026]** Our paper [SegmentAnyMuscle: A universal muscle segmentation model across different locations in MRI](https://arxiv.org/abs/2506.22467) was accepted to *Computers in Biology and Medicine*.
+* **[Sep. 2026]** Our work on [learning CT representations across anatomy and disease](https://arxiv.org/abs/2605.21906) was accepted to *npj Digital Medicine*.
+* **[Sep. 2026]** Our work on [muscle segmentation across anatomical regions in MRI](https://arxiv.org/abs/2506.22467) was accepted to *Computers in Biology and Medicine*.
 * **[Jan. 2026]** Our work on [Fréchet Radiomic Distance](https://doi.org/10.1016/j.media.2026.103943) was published in *Medical Image Analysis*.
 * **[Jan. 2026]** Our work applying [SAM 2 to 2D and 3D medical images](https://arxiv.org/abs/2408.00756) was published in *IEEE Transactions on Biomedical Engineering*.
 * **[Dec. 2025]** Our work on [breast MRI registration](https://arxiv.org/abs/2505.13414) was published in *IEEE Journal of Biomedical and Health Informatics*.
