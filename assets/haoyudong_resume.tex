@@ -24,15 +24,15 @@
     \textit{#3} & \textit{#4}
   \end{tabular*}\vspace{-4pt}
 }
-\newcommand{\bullets}{\begin{itemize}[leftmargin=0.18in,topsep=3pt,itemsep=2pt,parsep=0pt,partopsep=0pt]}
-\newcommand{\finishbullets}{\end{itemize}\vspace{-3pt}}
+\newcommand{\bullets}{\begin{itemize}[leftmargin=0.18in,topsep=3pt,itemsep=4pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\finishbullets}{\end{itemize}\vspace{2pt}}
 \newcommand{\pub}[1]{\item #1}
 
 \begin{document}
 
 \begin{center}
   {\LARGE\textbf{Haoyu Dong}}\\[4pt]
-  \href{mailto:haoyu.dong151@duke.edu}{haoyu.dong151@duke.edu} $\vert$
+  \href{mailto:jerrydong0330@gmail.com}{jerrydong0330@gmail.com} $\vert$
   +1 858 500-2825 $\vert$
   \href{https://haoyudong-97.github.io/}{Homepage} $\vert$
   \href{https://www.linkedin.com/in/haoyu-dong-63a801b9/}{LinkedIn} $\vert$
@@ -41,12 +41,13 @@
 \vspace{-8pt}
 
 \section{Research Profile}
-Ph.D. candidate in Electrical \& Computer Engineering at Duke University, specializing in foundation models, LLM agents, multimodal learning, and data-centric AI. Industry research experience at Meta and Siemens Healthineers, developing algorithm-evolution methods for LLM agents and in-context learning systems for 3D medical image segmentation. Author of 15+ peer-reviewed publications in medical AI, computer vision, and multimodal learning.
+Ph.D. candidate in Electrical \& Computer Engineering at Duke University, specializing in foundation models, LLM agents, multimodal learning, and data-centric AI. Industry research experience at Meta and Siemens Healthineers, developing algorithm-evolution methods for LLM agents and in-context learning systems for 3D medical image segmentation. Author of 33 research works in medical AI, computer vision, and multimodal learning.
 
 \section{Industry Experience}
-\entry{Meta}{May 2026 -- Present}{Software Engineer Intern}{Menlo Park, CA}
+\entry{Meta}{May 2026 -- Sep. 2026}{Software Engineer Intern}{Menlo Park, CA}
 \bullets
-  \item Improved Meta-Harness's algorithm-evolution pipeline by making agent trajectories evolvable and dynamically adapting the training set to strengthen the optimization signal. Increased performance from \textbf{49\% to 62\%} on math-solving tasks (\textbf{+13 percentage points}) and from \textbf{68\% to 71.3\%} on Terminal-Bench 2 (\textbf{+3.3 percentage points}).
+  \item Developed branching search for recursive self-improvement of LLM agent harnesses, evolving development objectives and proposal policies from execution feedback to discover complementary reasoning and coding strategies.
+  \item Built a router to select among complementary harnesses, achieving relative gains over Meta-Harness of \textbf{34.8\%} on Olympiad-level math, \textbf{11.6\%} on Terminal-Bench 2.0, and \textbf{3.8\%} on SWE-bench Lite; selected all harnesses using development data alone.
 \finishbullets
 
 \entry{Siemens Healthineers}{Jun. 2025 -- Aug. 2025}{AI Research Intern}{Princeton, NJ}
@@ -79,15 +80,15 @@ Ph.D. candidate in Electrical \& Computer Engineering at Duke University, specia
   \item Built a visual-semantic space for text-conditioned image retrieval using iterative point alignment and manifold-distance search, improving recall by \textbf{2 points} on FashionIQ, \textbf{5 points} on CSS, and \textbf{30 points} on a new dataset (CVPR 2021 Workshop).
 \finishbullets
 
+\newpage
 \section{Selected Publications}
 \begin{itemize}[leftmargin=0.18in,topsep=2pt,itemsep=4pt,parsep=0pt]
+  \pub{\textbf{Haoyu Dong}, Han Liu, Riqiang Gao, Bogdan Georgescu, Guillaume Chabin, Jianing Wang, and Sasa Grbi\'c. ``Revisiting In-Context Learning for 3D CT Segmentation of Unseen Anatomies.'' \textit{In submission}.}
+  \pub{\textbf{Haoyu Dong}, Yuhang Zhou, Zihao Lin, Yifan Wu, Bo Peng, Mingyi Wang, Xiangjun Fan, Lizhu Zhang, and Zhuokai Zhao. ``Branching Search with Evolving Objectives and Policies for Agent Harness Optimization.'' \textit{In submission}.}
+  \pub{Zihao Lin, \textbf{Haoyu Dong}, Haobo Xu, Chi-Chih Chang, Xuying Ning, Yinglong Xia, Shuang Yang, Zhuokai Zhao, Xinying Song, Lifu Huang, Yang Song, and Qifan Wang. ``VideoHarness-RSE: Recursive Structured Evolution of Harnesses for Video Understanding.'' \textit{In submission}.}
+  \pub{Hanxue Gu*, \textbf{Haoyu Dong*}, Pedro R. A. S. Bassi, Wenxuan Li, Alan Yuille, Zongwei Zhou, Kang Wang, and Yang Yang. ``Reports Are Not Captions: Understanding and Designing Report Supervision for Label-Efficient 3D Lesion Segmentation.'' \textit{In submission}.}
   \pub{\textbf{Haoyu Dong}, Yuwen Chen, Hanxue Gu, Nicholas Konz, Yaqian Chen, Qihang Li, and Maciej A. Mazurowski. ``MRI-CORE: A Foundation Model for Magnetic Resonance Imaging.'' \textit{Preprint}, 2025.}
-  \pub{\textbf{Haoyu Dong}, Han Liu, Riqiang Gao, Bogdan Georgescu, Guillaume Chabin, Jianing Wang, and Sasa Grbi\'c. ``Revisiting In-Context Learning for 3D CT Segmentation of Unseen Anatomies.'' \textit{Under review}.}
-\end{itemize}
-\newpage
-\section{Selected Publications (continued)}
-\begin{itemize}[leftmargin=0.18in,topsep=2pt,itemsep=4pt,parsep=0pt]
-  \pub{Hanxue Gu*, \textbf{Haoyu Dong*}, Pedro R. A. S. Bassi, Wenxuan Li, Alan Yuille, Zongwei Zhou, Kang Wang, and Yang Yang. ``Reports Are Not Captions: Understanding and Designing Report Supervision for Label-Efficient 3D Lesion Segmentation.'' \textit{Submitting}.}
+  \pub{Yuheng Li, Yuan Gao, \textbf{Haoyu Dong}, Yuxiang Lai, Shansong Wang, Mojtaba Safari, James E. Baciak, and Xiaofeng Yang. ``Universal CT Representations from Anatomy to Disease Phenotype through Stage-wise Pretraining.'' \textit{npj Digital Medicine}, 2026.}
   \pub{Hanxue Gu*, \textbf{Haoyu Dong*}, Jichen Yang, and Maciej A. Mazurowski. ``How to build the best medical image segmentation algorithm using foundation models: a comprehensive empirical study with Segment Anything Model.'' \textit{Machine Learning for Biomedical Imaging}, 2025.}
   \pub{\textbf{Haoyu Dong}, Nicholas Konz, Hanxue Gu, and Maciej A. Mazurowski. ``Medical image segmentation with InTEnt: Integrated entropy weighting for single image test-time adaptation.'' \textit{CVPR Workshops}, 2024.}
   \pub{Maciej A. Mazurowski, \textbf{Haoyu Dong}, Hanxue Gu, Jichen Yang, Nicholas Konz, and Yixin Zhang. ``Segment anything model for medical image analysis: an experimental study.'' \textit{Medical Image Analysis}, 2023.}
@@ -97,7 +98,7 @@ Ph.D. candidate in Electrical \& Computer Engineering at Duke University, specia
 \small * Equal contribution. Full publication list available on \href{https://scholar.google.com/citations?hl=en\&user=eZVEUCIAAAAJ\&view_op=list_works}{Google Scholar}.
 
 \section{Education}
-\entry{Duke University}{Expected Jan. 2027}{Ph.D., Electrical \& Computer Engineering}{Durham, NC}
+\entry{Duke University}{Expected May 2027}{Ph.D., Electrical \& Computer Engineering}{Durham, NC}
 \vspace{6pt}
 
 \entry{Duke University}{Jun. 2021}{M.S., Computer Science}{Durham, NC}
@@ -111,6 +112,7 @@ Ph.D. candidate in Electrical \& Computer Engineering at Duke University, specia
 \textbf{Infrastructure:} Linux, Git, Docker, Slurm, cloud platforms
 
 \section{Academic Service}
+\textbf{Area Chair:} \href{https://genai4health.github.io/2026-NeurIPS/}{GenAI4Health Workshop at NeurIPS 2026}\\[2pt]
 \textbf{Conference Reviewer:} ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, MICCAI, MIDL\\[2pt]
 \textbf{Journal Reviewer:} IEEE TMI (Distinguished Reviewer, Silver Level 2023--24), IEEE JBHI, IEEE TNNLS, IEEE TBME, Medical Image Analysis, npj Digital Medicine, npj Artificial Intelligence
 

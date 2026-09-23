@@ -12,7 +12,8 @@ Selected publications are listed below. See [Google Scholar]({{ site.author.goog
 * **Haoyu Dong**, Hanxue Gu, Yaqian Chen, Jichen Yang, Yuwen Chen, Maciej A. Mazurowski. Segment Anything Model 2: An application to 2D and 3D medical images. *IEEE Transactions on Biomedical Engineering* (2026). [Paper](https://arxiv.org/abs/2408.00756)
 * Nicholas Konz, Richard Osuala, Preeti Verma, Yuwen Chen, Hanxue Gu, **Haoyu Dong**, Yaqian Chen, …, Maciej A. Mazurowski. Fréchet radiomic distance: A versatile metric for comparing medical imaging datasets. *Medical Image Analysis* (2026). [Paper](https://doi.org/10.1016/j.media.2026.103943)
 * Yuwen Chen, Yaqian Chen, Roy Colglazier, **Haoyu Dong**, Hanxue Gu, Maciej A. Mazurowski, Kevin W. Southerland. LegSegNet: A public deep learning system for lower extremity CT tissue segmentation and quantification. *arXiv* (2026). [Paper](https://arxiv.org/abs/2605.30829)
-* Yuheng Li, Yuan Gao, **Haoyu Dong**, Yuxiang Lai, Shansong Wang, Mojtaba Safari, James E. Baciak, Xiaofeng Yang. Universal CT representations from anatomy to disease phenotype through agglomerative pretraining. *arXiv* (2026). [Paper](https://arxiv.org/abs/2605.21906)
+* Yuheng Li, Yuan Gao, **Haoyu Dong**, Yuxiang Lai, Shansong Wang, Mojtaba Safari, James E. Baciak, Xiaofeng Yang. Universal CT Representations from Anatomy to Disease Phenotype through Stage-wise Pretraining. *npj Digital Medicine* (2026). [Paper](https://arxiv.org/abs/2605.21906)
+* Roy Colglazier\*, Jisoo Lee\*, **Haoyu Dong\***, Hanxue Gu, Yaqian Chen, …, Maciej A. Mazurowski. SegmentAnyMuscle: A universal muscle segmentation model across different locations in MRI. *Computers in Biology and Medicine* (2026). [Paper](https://arxiv.org/abs/2506.22467)
 
 **2025**
 
@@ -22,7 +23,6 @@ Selected publications are listed below. See [Google Scholar]({{ site.author.goog
 * Yaqian Chen, Lin Li, Hanxue Gu, **Haoyu Dong**, Derek L. Nguyen, Allan D. Kirk, Maciej A. Mazurowski, E. Shelley Hwang. Breast density in MRI: An AI-based quantification and relationship to assessment in mammography. *npj Breast Cancer* (2025). [Paper](https://www.nature.com/articles/s41523-025-00789-w)
 * Hanxue Gu\*, **Haoyu Dong\***, Jichen Yang, Maciej A. Mazurowski. How to build the best medical image segmentation algorithm using foundation models: A comprehensive empirical study with Segment Anything Model. *MELBA* (2025). [Paper](https://www.melba-journal.org/papers/2025:006.html)
 * Hanxue Gu, Roy Colglazier, **Haoyu Dong**, Jikai Zhang, Yaqian Chen, Zafer Yildiz, Yuwen Chen, …, Maciej A. Mazurowski. SegmentAnyBone: A universal model that segments any bone at any location on MRI. *Medical Image Analysis* (2025). [Paper](https://www.sciencedirect.com/science/article/pii/S1361841525000170)
-* Roy Colglazier\*, Jisoo Lee\*, **Haoyu Dong\***, Hanxue Gu, Yaqian Chen, …, Maciej A. Mazurowski. SegmentAnyMuscle: A universal muscle segmentation model across different locations in MRI. *arXiv* (2025). [Paper](https://arxiv.org/abs/2506.22467)
 
 **2024**
 
