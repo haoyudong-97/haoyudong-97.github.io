@@ -40,7 +40,7 @@ Experience
 Worked on algorithm evolution for LLM agents, making trajectories evolvable and adapting training data to strengthen optimization signals.
 
 **AI Research Intern**, [Siemens Healthineers](https://www.siemens-healthineers.com/) · June 2025 – August 2025<br>
-Developed a 3D in-context segmentation framework for unseen anatomies, built and evaluated on 14,934 CT volumes across 92 structures; the work resulted in patent-pending technology assigned to Siemens Medical Solutions USA, Inc.
+Developed a 3D in-context segmentation framework for unseen anatomies, built and evaluated on 14,934 CT volumes across 92 structures; the work resulted in **patent-pending technology** assigned to Siemens Medical Solutions USA, Inc.
 
 Recent News
 ======
